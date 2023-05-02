@@ -15,12 +15,14 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100vw;
 }
 
 #root {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 100vw;
 }
 
 #quote-box {
@@ -92,4 +94,8 @@ body {
   text-align: center;
   font-size: 1em;
   margin-top: 10px;
+  position: relative;
+  display: block;
+  bottom: 0px;
+  width: 33.7em;
 }
