@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import QuoteCard from './QuoteCard'
 import Footer from './Footer'
 
+
 function App() {
 
   const [quotes, setQuotes] = useState([]);

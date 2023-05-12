@@ -11,38 +11,37 @@ html {
 body {
   background-color: rgb(14, 90, 14);
   color: rgb(13, 83, 13);
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
 }
 
 #root {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 100vw;
+  align-items: center;
 }
 
 #quote-box {
   background-color: white;
-  position: relative;
+  margin: 0 auto 0;
   padding: 20px;
   border-radius: 5px;
-  display: table;
+  width: 60vw;
 }
 
 #quotation {
-  font-size: 60px;
+  font-size: 6vw;
 }
 
 #text {
   text-align: center;
   clear: both;
   height: auto;
-  width: 500px;
-  font-size: 1.6em;
+  width: 100%;
+  font-size: 3vw;
 }
 
 #author {
@@ -51,13 +50,13 @@ body {
   padding-right: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
-  font-size: 1.2em;
+  font-size: 2.5vw;
 }
 
 #tweet-quote {
   float: left;
-  padding-top: 8px;
-  width: 50px;
+  padding-top: 0.9vw;
+  width: 25%;
 }
 
 #tweet-quote:hover {
@@ -66,6 +65,7 @@ body {
 
 #new-quote {
   float: right;
+   width: 25%;
 }
 
 #new-quote:hover {
@@ -81,8 +81,9 @@ body {
   border: none;
   color: white;
   background-color: rgb(14, 90, 14);
-  height: 35px;
-  width: 90px;
+  height: 4vw;
+  width: 20%;
+  font-size: 1.5vw;
   text-align: center;
   border-radius: 2px;
   cursor: pointer;
